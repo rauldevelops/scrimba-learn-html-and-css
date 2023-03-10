@@ -7,7 +7,7 @@ LIGHT BLUE: #457B9D
 DARK BLUE: #1D3557
 
 */
-
+/* ---- Base Syles ---- */
 body {
     margin: 0;
     text-align: center;
@@ -16,3 +16,43 @@ body {
 img {
     width: 100px;
 }
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://media.giphy.com/media/SV6Zm3Yh2781dBMLs9/giphy.gif);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Limelight', cursive;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+    padding: 120px 0 120px;
+    margin: 0;
+}
+
+#title {
+    background-color: #0bd3d3;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#subtitle {
+    background-color: #f890e7;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 100px 0;
+}
+
+.activities {
+    background: #f0f0f0;
+    padding: 25px 50px 25px
+}
+
+.activity-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* ---- Media Queries ---- */
